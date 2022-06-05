@@ -18,6 +18,7 @@ sys.stdin = StringIO(test_input1)
 #sys.stdin = StringIO(test_input2)
 
 
+
 def progress_check(line, row, col):
     move = [
         [row, col + 1],
@@ -29,6 +30,8 @@ def progress_check(line, row, col):
     for r, c in move:
         if 0 <= r < len(line) and 0 <= c < len(line) and line[r][c] == ' ':
             line[r][c] = 'k'
+            line[row][col] = '#'
+
 
 
 n = int(input())
@@ -41,12 +44,7 @@ while True:
         for col in range(len(line[0])):
             if line[row][col] == 'k':
                 progress = progress_check(line, row, col)
-                # if 0 <= row < len(line) and 0 <= col < len(line) and line[row][col]:
-                #     print(f'Kate got out in {count} moves')
-                #
-                # else:
-                #     print('Kate cannot get out')
-
                 count += 1
+
 
 
