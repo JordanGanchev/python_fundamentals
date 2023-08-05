@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6a93638-e10a-4870-983c-7a63426f5c37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exam_preparation/conditional_expression_resolve.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/projects/python_fundamentals/python_algorithms",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/python_fundamentals/python_algorithms&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.guards">
+}</component>
+  <component name="RunManager" selected="Python.arbitrage">
     <configuration name="1. reverse_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3. recursive_drawing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="arbitrage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,11 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recursion/3. recursive_drawing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/arbitrage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.arbitrage" />
         <item itemvalue="Python.guards" />
         <item itemvalue="Python.conditional_expression_resolve" />
         <item itemvalue="Python.2. nested_loops_to_recursion" />
         <item itemvalue="Python.1. reverse_array" />
-        <item itemvalue="Python.3. recursive_drawing" />
       </list>
     </recent_temporary>
   </component>
