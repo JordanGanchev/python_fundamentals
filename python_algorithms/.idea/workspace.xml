@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a93638-e10a-4870-983c-7a63426f5c37" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b6a93638-e10a-4870-983c-7a63426f5c37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,6 +198,7 @@
       <updated>1688445618503</updated>
       <workItem from="1692728078723" duration="53000" />
       <workItem from="1692728132693" duration="2207000" />
+      <workItem from="1693154971905" duration="325000" />
     </task>
     <servers />
   </component>
@@ -252,5 +251,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_algorithms$5_find_all_paths_in_a_labyrinth.coverage" NAME="5.find_all_paths_in_a_labyrinth Coverage Results" MODIFIED="1692729777483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursion" />
+    <SUITE FILE_PATH="coverage/python_algorithms$word_cruncher.coverage" NAME="word_cruncher Coverage Results" MODIFIED="1693155143472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Rcursion exercise" />
   </component>
 </project>
