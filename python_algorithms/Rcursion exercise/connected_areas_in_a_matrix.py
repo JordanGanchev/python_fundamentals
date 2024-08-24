@@ -3,6 +3,8 @@ class Aria:
         self.row = row
         self.col = col
         self.size = size
+
+        
 def explore_area(row, col, matrix):
     if row < 0 or col < 0 or row >= len(matrix) or col >= len(matrix[0]):
         return 0
