@@ -2,7 +2,7 @@ def find_all_solution(index, target, words_by_index, words_count, used_word):
     if index >= len(target):
         print(' '.join(used_word))
         return
-    if index not  in words_by_index:
+    if index not in words_by_index:
         return
     for word in words_by_index[index]:
         if words_count[word] == 0:
@@ -11,7 +11,9 @@ def find_all_solution(index, target, words_by_index, words_count, used_word):
         words_count[word] -= 1
         find_all_solution(index + len(word), target, words_by_index, words_count, used_word)
         used_word.pop()
-        words_count[word] -= 1
+        words_count[word] += 1
+
+
 words = input().split(', ')
 target = input()
 

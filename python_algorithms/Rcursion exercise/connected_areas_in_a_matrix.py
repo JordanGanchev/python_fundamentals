@@ -1,10 +1,10 @@
-class Aria:
-    def __int__(self, row, col, size):
+class Area:
+    def __init__(self, row, col, size):
         self.row = row
         self.col = col
         self.size = size
 
-        
+
 def explore_area(row, col, matrix):
     if row < 0 or col < 0 or row >= len(matrix) or col >= len(matrix[0]):
         return 0
@@ -21,6 +21,7 @@ def explore_area(row, col, matrix):
 
     return result
 
+
 rows = int(input())
 cols = int(input())
 
@@ -35,7 +36,7 @@ for row in range(rows):
         size = explore_area(row, col, matrix)
         if size == 0:
             continue
-        areas.append(Aria(row, col, size))
+        areas.append(Area(row, col, size))
 
 print(F"Total areas found: {len(areas)}")
 for index, area in enumerate(sorted(areas, key=lambda a: a.size, reverse=True)):
