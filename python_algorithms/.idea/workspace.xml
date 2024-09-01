@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a93638-e10a-4870-983c-7a63426f5c37" name="Changes" comment="" />
+    <list default="true" id="b6a93638-e10a-4870-983c-7a63426f5c37" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/exercise_grapfs/areas_in_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/bfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searching_and_sorting_algorithms/insertion_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/searching_and_sorting_algorithms/insertion_sort.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/new course pithon advans oop 12 09 23",
+    "last_opened_file_path": "D:/projects/python_fundamentals/python_algorithms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,7 +53,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.word_cruncher">
+  <component name="RunManager" selected="Python.areas_in_matrix">
     <configuration name="4.generating_0_1_Vectors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="arbitrage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="areas_in_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,12 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise_grapfs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/arbitrage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_grapfs/areas_in_matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.areas_in_matrix" />
         <item itemvalue="Python.word_cruncher" />
         <item itemvalue="Python.5.find_all_paths_in_a_labyrinth" />
         <item itemvalue="Python.6.  queens_puzzle" />
         <item itemvalue="Python.4.generating_0_1_Vectors" />
-        <item itemvalue="Python.arbitrage" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +253,21 @@
           <url>file://$PROJECT_DIR$/Recursion/3. recursive_drawing.py</url>
           <line>9</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercise_grapfs/areas_in_matrix.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercise_grapfs/areas_in_matrix.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercise_grapfs/areas_in_matrix.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

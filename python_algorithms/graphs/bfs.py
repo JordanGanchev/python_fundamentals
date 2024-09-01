@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def bfs(node, visited, graph):
     if node in visited:
         return
