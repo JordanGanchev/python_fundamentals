@@ -26,3 +26,6 @@ while queue:
     for child in graph[node]:
         if visited[child]:
             continue
+        visited[child] = True
+        queue.append(child)
+        parent[child] = node
