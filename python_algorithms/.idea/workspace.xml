@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6a93638-e10a-4870-983c-7a63426f5c37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Recursion/drive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_grapfs/cycles_in_a_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphs_Shortest_Path_and_MST/1.shortest_path_in_lnweighted_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion/2. recursive_factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/2. recursive_factorial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
