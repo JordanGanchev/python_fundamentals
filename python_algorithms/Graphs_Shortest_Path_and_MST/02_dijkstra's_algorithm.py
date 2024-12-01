@@ -1,11 +1,12 @@
 from queue import PriorityQueue
-
+from collections import deque
 
 class Edge:
     def __init__(self, source, destination, weight):
         self.source = source
         self.destination = destination
         self.weight = weight
+
 
 edges = int(input())
 graph = {}
@@ -39,8 +40,17 @@ while not pq.empty():
         if new_distance < distance[edge.destination]:
             distance[edge.destination] = new_distance
             parent[edge.destination] = node
-            pq.put(new_distance, edge.destination)
+            pq.put((new_distance, edge.destination))
 
-print(distance)
+if distance[target] == float('inf'):
+    print('There is no such path.')
+else:
+    print(distance[target])
 
+    path = deque()
+    node = target
+    while node is not None:
+        path.appendleft(node)
+        node = parent[node]
+    print(*path, end=' ')
 
