@@ -8,14 +8,12 @@ def dfs(node, destination, graph, visited):
         dfs(child, destination, graph, visited)
 
 
-def path_exists(source, destination, green):
+def path_exists(source, destination, graph):
     visited = set()
 
     dfs(source, destination, graph, visited)
 
     return destination in visited
-
-from reportlab.lib.colors import green
 
 nodes = int(input())
 
@@ -36,7 +34,7 @@ for source, destination in sorted(edges, key=lambda x: (x[0], x[1])):
     graph[source].remove(destination)
     graph[destination].remove(source)
 
-    if path_exists(source, destination, green):
+    if path_exists(source, destination, graph):
         remove_edges.append((source, destination))
     else:
         graph[source].append(destination)
