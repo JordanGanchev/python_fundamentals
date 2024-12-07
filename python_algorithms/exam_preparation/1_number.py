@@ -20,3 +20,5 @@ result_end = sorted(result2, key=lambda x: max(x), reverse=True)
 
 for i in result_end:
     print(*i, sep=" + ")
+
+ # 40%
