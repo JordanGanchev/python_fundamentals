@@ -21,9 +21,9 @@ visited = set()
 
 dfs(start_node, graph, visited)
 
-unrechable_nodes = []
+unreachable_nodes = []
 for node in graph.keys():
     if node not in visited:
-        unrechable_nodes.append(node)
+        unreachable_nodes.append(node)
 
-print(*sorted(unrechable_nodes), sep=' ')
+print(*sorted(unreachable_nodes), sep=' ')
